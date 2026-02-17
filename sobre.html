@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+</head>
+<body>
+    <div>
+        
+        <h1>Sobre Mim:</h1>
+        <img src="./img/img-manicure.jpeg">
+        <p>Ola, Me chamo Josiane, sou da cidade de Sandovalina Sp, estou no ramo de Manicure há 17 anos, sou apaixonada pelo que faço. Unhas bem cuidadas transmitem elegância, cuidado e dedicação por quem mais importa: Você! 💅</p>
+        <h2>Agende ja seu horario</h2>
+        <p>Para mais informações entre em contato abaixo!</p>
+        <button onclick="window.location.href='index.html'">Pagina Inicial</button>
+    </div>
+</body>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    body{
+        background: #aeaeee;
+background: radial-gradient(circle,rgba(174, 174, 238, 1) 0%, rgba(148, 187, 233, 1) 63%);
+    }
+
+
+    img{
+        height: 350px;
+        border-radius: 50%;
+
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        font-size: 20px;
+        gap: 20px;
+        font-weight: bold;
+        color: aliceblue;
+        background: #aeaeee;
+background: radial-gradient(circle,rgba(174, 174, 238, 1) 0%, rgba(148, 187, 233, 1) 63%);
+    }
+
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height: 20px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+        background-color: blueviolet;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+
+    button:hover{
+        opacity: 0.8;
+    }
+
+    @media(max-width: 768px){
+        div{
+            width: 90%;
+            font-size: 20px;
+        }
+    }
+</style>
+</html>
