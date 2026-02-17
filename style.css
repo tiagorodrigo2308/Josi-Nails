@@ -162,6 +162,11 @@ textarea{
 
 
 @media(max-width: 900px){
+
+    body{
+        background: #eeaeb4;
+background: radial-gradient(circle,rgba(238, 174, 180, 1) 12%, rgba(148, 187, 233, 1) 100%);
+    }
     .container-header h1{
         display: none;
     }
